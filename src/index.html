@@ -15,21 +15,29 @@
 
     <main>
 
-      <label for="">Busca tu serie</label>
       <form action="">
-        <input type="text" placeholder=" Ejemplo:Naruto">
-        <input type="submit" value="Buscar">
-        <input type="submit" value="Reset">
+        <input type="text" placeholder=" Ejemplo:Naruto" class="js-search">
+        <input type="submit" value="Buscar" class="js-btn">
+        <input type="submit" value="Reset" class="js-reset">
       </form>
 
       <div>
         <h4>Favoritos ♥ </h4>
-        <ul></ul>
+        <ul class="favs js-favs">
+          <!--
+          esto es lo q deberia pintar desde el js
+          <li>
+            <h4>naruto</h4>
+            <img src="url" alt="nombre"/>
+          </li> 
+          -->
+
+        </ul>
       </div>
   
       <div>
         <h4>Resultado de busqueda</h4>
-        <ul></ul>
+        <ul class="results js-results"></ul>
       </div>
     </main>
     <script src="./js/main.js"></script>
