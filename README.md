@@ -1,6 +1,6 @@
 ## Buscador de series Anime
 
-Esta es una aplicacion web para buscar tus series animes y puedas guardar tus favoritas.
+Este código es una aplicación web que permite buscar series de anime utilizando una API pública (Jikan API). Permite a los usuarios buscar series, agregar series a una lista de favoritos, ver esos favoritos en una lista separada y mantener los favoritos almacenados en el localStorage para que persistan incluso después de recargar la página
 
 ## Funciones
 

@@ -8,6 +8,54 @@
 @import 'pages/index';
 
 */
-body{
-    background-color: beige;
+body{ 
+    background-color: lightcoral;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.container-favs {
+    width: 30%; 
+    background-color: #e38383;
+    padding: 20px;
+    border-radius: 8px;
+    
+  }
+  .container-search {
+    width: 65%; 
+    background-color: #ae5cc1;
+    padding: 20px;
+    border-radius: 8px;
+     }
+
+  li img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+.results{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 16px; 
+    list-style: none; 
+    padding: 0;
+
+}
+
+.results .list {
+    
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    border: 1px solid violet; 
+    padding: 8px;
+    border-radius: 4px; 
 }

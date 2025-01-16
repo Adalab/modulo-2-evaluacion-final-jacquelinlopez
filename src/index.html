@@ -9,33 +9,35 @@
   </head>
 
   <body>
-    <header>
+    <header class="title">
       <h3>Buscador de series anime</h3>
     </header>
 
     <main>
-
-      <form action="">
+     
+      <form action="" class="search">
         <input type="text" placeholder=" Ejemplo:Naruto" class="js-search">
         <input type="submit" value="Buscar" class="js-btn">
         <input type="submit" value="Reset" class="js-reset">
       </form>
 
-      <div>
+
+    <section class="container">
+      <div class="container-favs">
         <h4>Favoritos ♥ </h4>
         <ul class="favs js-favs">
-          <!--
-          esto es lo q deberia pintar desde el js
-          <li>
-            <h4>naruto</h4>
-            <img src="url" alt="nombre"/>
-          </li> 
-          -->
+        <!--
+        esto es lo q deberia pintar desde el js
+        <li>
+          <h4>naruto</h4>
+          <img src="url" alt="nombre"/>
+        </li> 
+        -->
 
         </ul>
       </div>
-  
-      <div>
+      
+      <div class="container-search">
         <h4>Resultado de busqueda</h4>
         <ul class="results js-results">
           <!--
@@ -47,6 +49,7 @@
           -->
         </ul>
       </div>
+    </section>
     </main>
     <script src="./js/main.js"></script>
   </body>
