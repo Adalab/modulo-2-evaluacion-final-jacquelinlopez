@@ -30,7 +30,8 @@ let arrayFav = [];
  function handleClick(ev){
     ev.preventDefault(); //prevent del boton//
     const inputText = inputSearch.value;//guardo valor input//
-   
+
+   //solicitud a la api//
 
     fetch(`https://api.jikan.moe/v4/anime?q=${inputText}`)
     .then((resp) => resp.json())
@@ -45,7 +46,7 @@ btn.addEventListener('click', handleClick);
 
 //funcion para pintar resultados//
 function renderResults(series){
-    listResults.innerHTML = '';// limpia resultados 
+    listResults.innerHTML = '';// limpia resultados de antes
 
     for(const serie of series){
         let image = serie.images.jpg.image_url;
