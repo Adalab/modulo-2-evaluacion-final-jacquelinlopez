@@ -101,7 +101,7 @@ function handleAddFavorites(ev){
     allAnime.forEach(item => {
         item.style.backgroundColor = ''; // Limpiamos el color de fondo
     });
-    ev.currentTarget.style.backgroundColor = '#f0f0f0'; // Establecemos el color de fondo del elemento seleccionado
+    ev.currentTarget.style.backgroundColor = '#33ffc4'; // Establecemos el color de fondo del elemento seleccionado
 }
 
 // Función para renderizar los favoritos desde el localStorage
